@@ -16,11 +16,6 @@ export class Evidencia extends Entity {
   nombre: string;
 
   @property({
-    type: 'buffer',
-  })
-  archivo?: Buffer;
-
-  @property({
     type: 'string',
     required: true,
   })
@@ -33,16 +28,10 @@ export class Evidencia extends Entity {
   cantEntregada: number;
 
   @property({
-    type: 'number',
+    type: 'string',
     required: true,
   })
-  idTipo: number;
-
-  @property({
-    type: 'number',
-    required: true,
-  })
-  idSolicitud: number;
+  tipoEvidencia: string;
 
 
   constructor(data?: Partial<Evidencia>) {

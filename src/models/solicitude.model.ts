@@ -10,13 +10,13 @@ export class Solicitude extends Entity {
   idSolicitud?: number;
 
   @property({
-    type: 'date',
+    type: 'string',
     required: true,
   })
   fechaRegistro: string;
 
   @property({
-    type: 'date',
+    type: 'string',
   })
   fechaAtencion?: string;
 
@@ -27,10 +27,10 @@ export class Solicitude extends Entity {
   estatus: string;
 
   @property({
-    type: 'number',
+    type: 'string',
     required: true,
   })
-  idOpcion: number;
+  opcion: string;
 
   @property({
     type: 'number',
@@ -39,11 +39,34 @@ export class Solicitude extends Entity {
   noControl: number;
 
   @property({
+    type: 'string',
+    required: true,
+  })
+  coordinador: string;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
+  nombre: string;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
+  producto: string;
+
+  @property({
     type: 'number',
     required: true,
   })
-  noEmpleado: number;
+  numeroEstudiantes: number;
 
+  @property({
+    type: 'string',
+    required: true,
+  })
+  observaciones: string;
 
   constructor(data?: Partial<Solicitude>) {
     super(data);

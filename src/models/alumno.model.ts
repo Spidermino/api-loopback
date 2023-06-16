@@ -5,7 +5,6 @@ export class Alumno extends Entity {
   @property({
     type: 'number',
     id: true,
-    generated: true,
   })
   noControl?: number;
 
@@ -19,20 +18,7 @@ export class Alumno extends Entity {
     type: 'number',
     required: true,
   })
-  idPlan: number;
-
-  @property({
-    type: 'number',
-    required: true,
-  })
   idUsuario: number;
-
-  @property({
-    type: 'number',
-    required: true,
-  })
-  idCarrera: number;
-
 
   constructor(data?: Partial<Alumno>) {
     super(data);

@@ -45,19 +45,6 @@ export class Usuario extends Entity {
   })
   password: string;
 
-  @property({
-    type: 'string',
-    required: true,
-  })
-  tipo: string;
-
-  @property({
-    type: 'string',
-    required: true,
-  })
-  estatus: string;
-
-
   constructor(data?: Partial<Usuario>) {
     super(data);
   }

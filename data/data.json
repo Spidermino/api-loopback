@@ -1,0 +1,30 @@
+{
+  "ids": {
+    "Solicitude": 12,
+    "Proyecto": 3,
+    "Evidencia": 4,
+    "Usuario": 13,
+    "Alumno": 17010312
+  },
+  "models": {
+    "Solicitude": {
+      "4": "{\"fechaRegistro\":\"2023-06-14\",\"estatus\":\"A\",\"opcion\":\"Tesis\",\"noControl\":17010310,\"noEmpleado\":10293390,\"nombre\":\"Implementación de un ERP\",\"producto\":\"Documento\",\"numeroEstudiantes\":1,\"observaciones\":\"Ninguna\",\"idSolicitud\":4,\"coordinador\":\"Alberto \"}",
+      "7": "{\"fechaRegistro\":\"15/6/2023\",\"estatus\":\"E\",\"opcion\":\"Tesis\",\"noControl\":17010310,\"coordinador\":\"Alberto \",\"nombre\":\"Implementación de un erp\",\"producto\":\"Documento \",\"numeroEstudiantes\":1,\"observaciones\":\"Ninguna\",\"idSolicitud\":7}",
+      "8": "{\"fechaRegistro\":\"30/6/2023\",\"estatus\":\"E\",\"opcion\":\"Examen\",\"noControl\":17010310,\"coordinador\":\"Albert \",\"nombre\":\"App web\",\"producto\":\"App\",\"numeroEstudiantes\":1,\"observaciones\":\"Ninguna\",\"idSolicitud\":8}",
+      "9": "{\"fechaRegistro\":\"30/6/2023\",\"estatus\":\"E\",\"opcion\":\"Examen\",\"noControl\":17010310,\"coordinador\":\"Albert o\",\"nombre\":\"App webxddhj\",\"producto\":\"App\",\"numeroEstudiantes\":1,\"observaciones\":\"Ninguna\",\"idSolicitud\":9}"
+    },
+    "Proyecto": {
+      "1": "{\"idSolicitud\":1,\"nombre\":\"Implementacion de un ERP\",\"producto\":\"Documento\",\"numeroEstudiantes\":1,\"observaciones\":\"Ninguna\",\"noControl\":17010310,\"idProyecto\":1}",
+      "2": "{\"idSolicitud\":2,\"nombre\":\"Desarrollo de un APP Web\",\"producto\":\"App\",\"numeroEstudiantes\":1,\"observaciones\":\"Ninguna\",\"noControl\":17010310,\"idProyecto\":2}"
+    },
+    "Evidencia": {
+      "2": "{\"nombre\":\"Anexo\",\"estatus\":\"E\",\"cantEntregada\":3,\"tipoEvidencia\":\"Digital\",\"idEvidencia\":2}"
+    },
+    "Usuario": {
+      "10": "{\"nombre\":\"Jesus\",\"sexo\":\"Masculino\",\"telefono\":\"3511454944\",\"email\":\"igil@gmail.com\",\"domicilio\":\"Sitio\",\"password\":\"Shadow99 \",\"idUsuario\":10}"
+    },
+    "Alumno": {
+      "17010310": "{\"noControl\":17010310,\"anioEgreso\":2022,\"idUsuario\":10}"
+    }
+  }
+}
